@@ -353,7 +353,7 @@ const dishes = [
 ];
 
 
-export default function MenuApp() {
+export default function App() {
   const [selectedDishes, setSelectedDishes] = useState([]);
   const [activeTabId, setActiveTabId] = useState(1)
   const [viewDish, setViewDish] = useState(null);
